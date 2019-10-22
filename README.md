@@ -3,7 +3,7 @@ tools for 3d imaging in the context of the MUltimodal Data Registration Algorith
 
 # Scalar Field Intepolator
 
-Usage : python scalar_field_interpolator.py input_file.npy
+Usage : python sfi_viewer.py input_file.npy
 
 Keys list :
 - '!': # Start / Stop Cropping
