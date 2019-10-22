@@ -6,17 +6,17 @@ tools for 3d imaging in the context of the MUltimodal Data Registration Algorith
 Usage : python scalar_field_interpolator.py input_file.npy
 
 Keys list :
-['!']: # Start / Stop Cropping
-['@']: # Load a Sampling Arrow (then clic)
-["#"]: #  Start/Stop Interpolation Plane (IP)
-['d']: # Show / Hide  IP handle
-['+']: Tranlate + IP along it normal
-['-']: Tranlate - IP along it normal
-['c']: Show / Hide  Volume Rendering (VR)
-["r"]: Emply the sampling point list
-['l']: List tje Sampling point list
-['$']: Open matplotlib imshowe with the IP image
-['^']: Save Screenshot
+- '!': # Start / Stop Cropping
+- '@': # Load a Sampling Arrow (then clic)
+- "#": #  Start/Stop Interpolation Plane (IP)
+- 'd': # Show / Hide  IP handle
+- '+': Tranlate + IP along it normal
+- '-': Tranlate - IP along it normal
+- 'c': Show / Hide  Volume Rendering (VR)
+- "r": Emply the sampling point list
+- 'l': List tje Sampling point list
+- '$': Open matplotlib imshowe with the IP image
+- '^': Save Screenshot
    
 avec "!" tu limite le volume rendering avec une crop box "!" a nouveau pour la faire disparaitre
 pour cacher/faire reparaitre le volume rendering appui sur "c"
